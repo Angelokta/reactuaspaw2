@@ -39,24 +39,13 @@ const App = () => {
 
   return (
     <Router>
-      {/* ================= NAVBAR ================= */}
+      {/* navbar */}
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm mb-4">
         <div className="container">
           
-          {/* Brand / Logo */}
           <NavLink className="navbar-brand fw-bold" to="/">
             📚 Novel App
           </NavLink>
-
-          {/* Tombol toggle mobile */}
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
 
           {/* Menu navbar */}
           <div className="collapse navbar-collapse" id="navbarNav">
