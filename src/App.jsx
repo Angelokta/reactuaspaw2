@@ -103,7 +103,7 @@ const App = () => {
                     Logout
                   </NavLink>
                 ) : (
-                  <NavLink className="nav-link text-success" to="/login">
+                  <NavLink className="nav-link text-warning" to="/login">
                     Login
                   </NavLink>
                 )}
@@ -114,7 +114,7 @@ const App = () => {
         </div>
       </nav>
 
-      {/* ================= CONTENT ================= */}
+      {/* - CONTENT - */}
       <div className="container">
         <Suspense fallback={<Loader />}>
           <Routes>

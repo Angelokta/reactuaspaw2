@@ -7,7 +7,7 @@ export default function Home() {
       }}
     >
       <div className="card shadow-lg p-4 text-center">
-        <h1 className="fw-bold mb-3">Novel App</h1>
+        <h1 className="fw-bold mb-3">WELCOME</h1>
 
         <p className="text-muted mb-4">
           Jelajahi dunia cerita dan simpan novel favoritmu.
