@@ -156,7 +156,7 @@ const App = () => {
               }
             />
             <Route
-              path="/penulis/edit/:id"
+              path="/penulis/edit1/:id"
               element={
                 <ProtectedRoute>
                   <PenulisEdit />
@@ -174,7 +174,7 @@ const App = () => {
               }
             />
             <Route
-              path="/penerbit/create"
+              path="/penerbit/create1"
               element={
                 <ProtectedRoute>
                   <PenerbitCreate />

@@ -124,7 +124,7 @@ export default function PenulisList() {
                     <td className="text-center">
                       {/* Tombol edit */}
                       <NavLink
-                        to={`/penulis/edit/${p._id}`}
+                        to={`/penulis/edit1/${p._id}`}
                         className="btn btn-info btn-sm me-1 text-white"
                       >
                         Ubah

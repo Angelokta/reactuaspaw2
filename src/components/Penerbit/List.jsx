@@ -82,7 +82,7 @@ export default function PenerbitList() {
         <h3 className="fw-bold mb-0">Daftar Penerbit</h3>
 
         {/* Tombol tambah penerbit */}
-        <NavLink to="/penerbit/create" className="btn btn-primary">
+        <NavLink to="/penerbit/create1" className="btn btn-primary">
           + Tambah Penerbit
         </NavLink>
       </div>
